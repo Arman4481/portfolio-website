@@ -333,3 +333,44 @@ footer {
   background: #a855f7;
   color: black;
 }
+/* MOBILE RESPONSIVE FIX */
+@media (max-width: 768px) {
+  
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 60px 20px;
+  }
+
+  .hero-left {
+    max-width: 100%;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  .hero h2 {
+    font-size: 20px;
+  }
+
+  .hero p {
+    font-size: 14px;
+  }
+
+  .btn {
+    margin: 20px 0;
+    display: inline-block;
+  }
+
+  .hero-right {
+    margin-top: 30px;
+  }
+
+  .hero-right img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+}
